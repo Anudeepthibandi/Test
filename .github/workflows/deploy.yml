@@ -33,5 +33,5 @@ jobs:
 
       - name: update ECS service
         run: |
-         aws ece update-service --cluster medusa-cluster --service medusa-service --force-new-deployment
+         aws ecs update-service --cluster medusa-cluster --service medusa-service --force-new-deployment
         
