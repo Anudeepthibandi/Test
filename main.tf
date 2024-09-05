@@ -1,15 +1,3 @@
-resource "aws_ecr_repository" "medusa" {
-  name = "medusa-backend"
-  
-  image_scanning_configuration {
-    scan_on_push = true
-  }
-  
-  tags = {
-    Name = "medusa-backend"
-  }
-}
-
 resource "aws_vpc" "medusa_vpc" {
   cidr_block = var.vpc_cidr
   enable_dns_hostnames = "true"
