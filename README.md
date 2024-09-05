@@ -15,5 +15,28 @@ Terraform Configuration for AWS ECS/Fargate
 6.ECS Service
 
 1. Terraform module to set up resources  VPC,Security Groups,ECS Cluster,ECS Service
+https://github.com/Anudeepthibandi/Test/blob/main/Screenshots/Main.tf%20part1.png
+https://github.com/Anudeepthibandi/Test/blob/main/Screenshots/Main.tfpart2.png
+https://github.com/Anudeepthibandi/Test/blob/main/Screenshots/Main.tfpart3.png
+2. Terraform module to set up providers
+https://github.com/Anudeepthibandi/Test/blob/main/Screenshots/provider.tf.png
+3. Terraform module for variables
+https://github.com/Anudeepthibandi/Test/blob/main/Screenshots/variables.tf.png
+4. Terraform module for output
+https://github.com/Anudeepthibandi/Test/blob/main/Screenshots/Output.tf.png
+
+After setting up these modules for infrastructure as code 
+* Terraform init -- to intialize the terraform
+* Terraform plan -- to review the infrastructure
+* Terraform apply -- to create the infrastructure for the medusa application
+
+5.Github action
+  git init
+  git add.
+  connect to remote repository using http url or ssh and provide credentials if it needed
+
+  Create a .yml file or upload .yml file to your github once it commit and it code is pushed and Once the actions are scucceeded we can check the output ECScluster and ECS task service in the AWS.
+  push the code to github 
+
    
 
